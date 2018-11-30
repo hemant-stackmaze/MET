@@ -1,0 +1,35 @@
+.trending-header {
+  margin: 0 auto;
+  padding: 5px 0px 5px 30px;
+  width: 89%;
+  height: auto;
+  text-align: left;
+  text-transform: uppercase;
+  background: #004D73;
+  color: #fff;
+  font-weight: 600;
+  
+  strong {
+    padding: 16px;
+    font-size: 16px;
+  }
+}
+.trending-grid {
+  padding: 20px 0px 0px 0px;
+  .pad-btm {
+    padding-bottom: 30px;
+    i.fa {
+      margin-right: 10px;
+      font-size:24px;
+      color:green
+    }
+    .tim {margin-right: 10px;}
+    .dat {font-size: 16px;}
+  }
+  .trending-image {
+    border-radius: 2px;
+    width: 250px;
+    height: 250px;
+    background: #fff;
+  }
+}

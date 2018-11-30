@@ -1,0 +1,31 @@
+doctype html
+html(class="no-js" lang="en-US")
+  include head
+  body.bg#home-page
+    include header
+    - var storySectionTitleText = "Monde";
+    - var storySectionBGColor = '#004D73';
+    include story-headlines
+    - storySectionTitleText = "Culture";
+    include story-headlines
+    - storySectionTitleText = "Vacances";
+    include story-headlines
+    - storySectionTitleText = "Bouffe";
+    include story-headlines
+    - storySectionTitleText = "Carrieres";
+    include story-headlines
+    section.bg-advertisement
+      .grid-container
+        .grid-x.grid-padding-x.align-center-middle
+          .cell.medium-6.align-self-middle.adv
+    include trend
+    section.bg-advertisement
+      .grid-container
+        .grid-x.grid-padding-x.align-center-middle
+          .cell.medium-6.align-self-middle.adv
+
+    include category
+    include contact-advertise-press
+    include footer
+    include scripts
+    

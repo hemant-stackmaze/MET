@@ -1,0 +1,32 @@
+section.headlines#story-headlines
+  .grid-container
+    .grid-x.grid-margin-x.grid-margin-y
+      .cell.medium-8(style="background-color: #fff;")
+        .grid-x.grid-padding-x.story-headlines-grid
+          h5.story-headlines-header= storySectionTitleText
+          .cell.medium-5
+              .flex-container.flex-dir-column
+                each story in [1,2,3,4]
+                  .cell.medium-12.monde-story-headline(style="margin-bottom: 10px;")
+                      .flex-container.flex-dir-row.align-middle
+                        .cell.medium-6.story-headlines-image(style="background-image: url('../assets/images/.jpg')")
+                        .cell.medium-6
+                          .flex-container.flex-dir-column
+                            .flex-container.flex-dir-row.pad-btm
+                              i.fa.fa-clock-o
+                              span.tim 3:15 pm
+                              span.dat AUG 15, 2018
+                            strong Story headline goes here<br/> Lorem Ipsum is simply
+                
+          .cell.medium-7
+            .flex-container.flex-dir-column
+              .flex-container.flex-dir-row.pad-btm
+                i.fa.fa-clock-o
+                span.tim 3:15 pm
+                span.dat AUG 15, 2018
+              strong.story-headlines-right Story headline goes here Lorem<br/> Ipsum is simply dummy text of the<br/> printing and typesetting industry
+              .story-headlines-image-large(style="background-image: url('../assets/images/.jpg');")
+    
+      .cell.medium-4(style="background-color: #fff;")
+        .flex-container.flex-dir-column
+          .advertisement
